@@ -61,3 +61,24 @@
 2022-05-26 10:44:23,762 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
 2022-05-26 10:44:23,766 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
 2022-05-26 10:44:23,783 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2022-05-26 10:57:57,228 INFO com.hosting.rest.api.BookingSystemApiRestApplicationTests [main] Starting BookingSystemApiRestApplicationTests using Java 17.0.2 on S-PTDES1 with PID 35104 (started by practicassoftware1 in C:\Users\practicassoftware1\Documents\proyecto_daw_francisco\booking-app-restApi\api)
+2022-05-26 10:57:57,231 INFO com.hosting.rest.api.BookingSystemApiRestApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
+2022-05-26 10:57:59,482 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-26 10:57:59,906 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 407 ms. Found 25 JPA repository interfaces.
+2022-05-26 10:58:01,428 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-26 10:58:01,574 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.7.Final
+2022-05-26 10:58:01,991 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-05-26 10:58:02,347 WARN com.zaxxer.hikari.HikariConfig [main] HikariPool-1 - maxLifetime is less than 30000ms, setting to default 1800000ms.
+2022-05-26 10:58:02,350 WARN com.zaxxer.hikari.HikariConfig [main] HikariPool-1 - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
+2022-05-26 10:58:02,351 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-05-26 10:58:03,671 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-05-26 10:58:03,701 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-05-26 10:58:06,399 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-26 10:58:06,477 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-26 10:58:07,065 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-26 10:58:12,002 INFO org.springframework.security.web.access.channel.ChannelProcessingFilter [main] Validated configuration attributes
+2022-05-26 10:58:14,296 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Will not secure any request
+2022-05-26 10:58:15,565 INFO com.hosting.rest.api.BookingSystemApiRestApplicationTests [main] Started BookingSystemApiRestApplicationTests in 19.079 seconds (JVM running for 21.074)
+2022-05-26 10:58:16,140 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-26 10:58:16,143 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2022-05-26 10:58:16,171 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
